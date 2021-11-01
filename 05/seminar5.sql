@@ -25,6 +25,7 @@ order by hiredate desc, ename asc
 go
  
 -- task 5
+-- date format is yyyy-mm-dd
 select ename, deptno, hiredate
 from EMP
 where hiredate between '2006-01-01' and '2006-12-31'
@@ -104,8 +105,8 @@ go
 
 -- task 15
 /*
-15.	List names and jobs of all clerks in department 20, format the output to look like ìJOHN works as a clerkî. 
-Use string concatenation operator ì+î or CONCAT() function and LOWER()/UPPER() functions (see examples in Appendix) 
+15.	List names and jobs of all clerks in department 20, format the output to look like ‚ÄúJOHN works as a clerk‚Äù. 
+Use string concatenation operator ‚Äú+‚Äù or CONCAT() function and LOWER()/UPPER() functions (see examples in Appendix) 
 to change job and ename name case. Sort results by job title asc and then by ename desc.
 */
 
